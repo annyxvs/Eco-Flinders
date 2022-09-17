@@ -32,7 +32,7 @@ export const Home = () =>{
                     </div>
                 </S.Content>
                 <S.Aside>
-                    <img src={imgTree} alt="" />
+                    <img src={imgTree} alt="tree" />
                 </S.Aside>
             </S.Section>
             <Footer/>

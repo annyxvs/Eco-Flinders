@@ -51,7 +51,7 @@ export const Content = styled.div`
 
     justify-content: flex-start;
     width: 60vw;
-    height: 35vh;
+    min-height: 35vh;
     border-radius: 0 0.4rem 0.4rem 0;
 
     font-family: 'Inter', sans-serif;
@@ -104,7 +104,7 @@ export const Aside = styled.aside`
     align-items: center;
 
     img{
-        width: 22vw;
-        height: 50vh;
+        max-width: 22vw;
+        max-height: 50vh;
     }
 `
