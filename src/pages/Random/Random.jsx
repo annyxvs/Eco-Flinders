@@ -21,9 +21,6 @@ export const Random = () =>{
         setAnimal(response)
     }
 
-    useEffect(() => {
-        generateAnimal();
-    }, [])
 
     return(
         <S.Random>
