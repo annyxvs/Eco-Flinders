@@ -6,6 +6,7 @@ import {Loading} from '../Loading/Loading'
 import {Btn} from '../../components/Btn/Btn'
 
 import * as S from './style'
+import { useEffect } from 'react'
 
 export const Random = () =>{
     const [animal,setAnimal] = useState([])
@@ -19,6 +20,10 @@ export const Random = () =>{
         }, 3000)}
         setAnimal(response)
     }
+
+    useEffect(() => {
+        generateAnimal();
+    }, [])
 
     return(
         <S.Random>

@@ -11,7 +11,7 @@ export const Container = styled.div`
         width: 40vw;
         overflow: auto;
         img{
-            width: 40vw;
+            max-width: 40vw;
             height: 80vh;
             border: 5px solid #CED9D7;
         }

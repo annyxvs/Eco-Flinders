@@ -34,5 +34,9 @@ export const Btn = styled.button`
         color: #01200F;
     
         transform: scale(1.2);
+
+        a{
+            color: #01200F;
+        }
     }
 `

@@ -14,7 +14,7 @@ export const Home = () =>{
         <S.Fundo>
             <Header/>
             <S.Main>
-                <Btn title='Sobre nós ↓' route={S.Content}/>
+                <Btn title='Sobre nós ↓'/>
             </S.Main>
             <S.M2>
                 <img src={imglogo} alt="Logo ECO Flinders" />

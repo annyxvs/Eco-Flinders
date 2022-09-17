@@ -21,7 +21,7 @@ export const Main = styled.main`
 
     button{
         margin: 5rem;
-        width: 10vw;
+        width: 150px;
     }
 `
 export const M2 = styled.main`

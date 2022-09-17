@@ -21,15 +21,19 @@ export const Gallery = () =>{
         setAnimals(response)
     }
 
+    useEffect(() => {
+        handleClick();
+    }, [])
+
     return(
         <S.Gallery>
                 <div className="btns">                
-                    <button onClick={handleClick}>Galeria</button>
+                    <button onClick={handleClick}>Outra Galeria</button>
                     <Btn title='Voltar' route='/'/>
                 </div>
 
                 {loading && <Loading/>}
-
+        
                 <S.Cards>
                     {!loading && animals.map((animal,index) => (
                         <div key={index}>
