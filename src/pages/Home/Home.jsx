@@ -27,7 +27,7 @@ export const Home = () =>{
                     <p>O ECO flinders faz grandes esforços para estabelecer padrões elevados no que diz respeito ao bem-estar e conservação dos animais e está localizado na Austrália.</p>
 
                     <div>
-                        <button><img src={imgLoc} alt="Ícone de localização." /></button>
+                        <a href="https://www.zoo.org.au/donate/donation/" target='_blank'><img src={imgLoc} alt="Ícone de localização." /></a>
                         <p>Localização</p>
                     </div>
                 </S.Content>
