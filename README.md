@@ -1,5 +1,5 @@
 
-# ECO Flinders
+#  🗺 ECO Flinders
 
 Projeto relacinado ao desafio da fábrica de softwares - 2022.2
 
@@ -7,17 +7,17 @@ Projeto relacinado ao desafio da fábrica de softwares - 2022.2
 
 
 
-## Visualização:
+## 🔎 Visualização:
 
 ![ECO gif](https://user-images.githubusercontent.com/92173477/190881298-62451803-0535-4bc0-85b4-654fd368b845.gif)
 
 
-## Autores
+## 👩🏾‍💻 Autores
 
 - [@annyxvs](https://www.github.com/annyxvs)
 
 
-## Documentação da API
+## 🗂 Documentação da API
 
 ```http
   API: https://zoo-animal-api.herokuapp.com/
@@ -38,13 +38,13 @@ Projeto relacinado ao desafio da fábrica de softwares - 2022.2
 
 
 
-## Stack utilizada
+## 🔌  Stack utilizada
 
 **Front-end:** React, Axios, Styled-Components
 
 
 
-## Rodando localmente
+## 📲 Rodando localmente
 
 Clone o projeto
 
